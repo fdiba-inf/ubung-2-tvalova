@@ -23,7 +23,7 @@ public class QuadraticEquation {
       }
     } else {
       if(b != 0) {
-      int x = ((0 - c) / b);
+      double x = ((0.0 - c) / b);
       System.out.println(x);
       } else if(c != 0){
       System.out.println("No values");
